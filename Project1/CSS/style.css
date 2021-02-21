@@ -1,5 +1,155 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body{
+    font-family: 'Nunito', sans-serif;
 }
+/* HEADER AREA START*/
+.header-area{
+    display: ;
+}
+
+/* HEADER AREA END*/
+
+/* Logo edit start */
+.navbar-logo{
+    margin-left: 60px;
+}
+/* Logo edit end */
+
+/* ---------------------------------------- */
+
+/* MENU NAV START */
+    /* DROPDOWN MENU DISCOVER START */
+    .discover{
+      margin-left:25px;
+    
+    }
+    .discover .dropdown-menu{
+        padding: 0;
+        margin: 0;
+        border: none;
+        outline: none;
+    }
+    .discover .dropdown-menu a{
+        display: inline-flex;
+        flex-direction: column;
+        border-radius: 2px;
+        border-bottom: solid 1px rgba(182, 182, 182, 0.171);
+        padding-left: 15px;
+    }
+    .discover .dropdown-menu a:hover{
+        border-left: solid 2px black ;
+        transition: 0.2s linear;
+    }
+    /* DROPDOWN MENU DISCOVER END */
+
+/* ---------------------------------------- */
+
+    /* DROPDOWN MENU PAGES START */
+    .pages{
+        margin-left:25px;
+      }
+    .pages .dropdown-menu{
+        padding: 0;
+        margin: 0;
+        border: none;
+        outline: none;
+    }
+    .pages .dropdown-menu a{
+        display: inline-flex;
+        flex-direction: column;
+        border-radius: 2px;
+        border-bottom: solid 1px rgba(182, 182, 182, 0.171);
+        padding-left: 15px;
+    }
+    .pages .dropdown-menu a:hover{
+        border-left: solid 2px black ;
+        transition: 0.1s linear;
+    }
+    /* DROPDOWN MENU PAGES END */
+/* MENU NAV END */
+
+/* ---------------------------------------- */
+
+/* Sign in/up start */
+.btn-sign .sign{
+    text-decoration: none;
+    width: 130px;
+    display: inline-block;
+    line-height: 28px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    border: solid 1px #1A153A;
+}
+.btn-sign .sign:hover{
+    background-color: #1A153A;
+    transition: 0.2s;
+}
+.btn-sign .sign a{
+    padding: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    margin: 15px;
+    text-decoration: none;
+    color: #1A153A;
+    transition: 0.2s;
+}
+.btn-sign .sign:hover a{
+    color: white;
+}
+.btn-sign .signUp{
+    margin-left: 15px;
+}
+/* Sign in/up end */
+
+/* ---------------------------------------- */
+
+/* WELCOME AREA START */
+
+    /* BTN LM START */
+    .btn-LearnMore a{
+        text-decoration: none;
+        width: 160px;
+        display: inline-block;
+        line-height: 44px;
+        text-align: center;
+        border-radius: 5px;
+        background: #1a153a;
+        font-size: 12px;
+        color: #fff;
+    }
+    .btn-LearnMore a:hover{
+        background: #100c30;
+        transition: 0.2s linear;
+        
+    }
+    /* BTN LM END */
+
+    /* IMG GRID AREA START */
+        .img-group .img-1{
+            left: -999999px;
+            right: -999999px;
+            top: -999999px;
+        }
+        .img-group .img-2{
+            left: -999999px;
+            right: -999999px;
+            top: -999999px;
+            bottom: -999999px;
+        }
+        .img-group .img-3{
+            left: -999999px;
+            right: -999999px;
+            top: -999999px;
+            bottom: -999999px;
+        }
+        .img-group .img-4{
+            left: -999999px;
+            right: -999999px;
+            top: -999999px;
+            bottom: -999999px;
+        }
+    /* IMG GRID AREA END */
+
+/* WELCOME AREA END */
