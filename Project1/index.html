@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>project</title>
+    <link rel="icon" href="images/favicon.png">
+    <title>Jirona</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -14,114 +15,477 @@
 
 </head>
 
-<body>
+<body style="height: 5000000px;">
     <!--***** HEADER AREA START *****-->
-    <header class="header-area">
-        <div class="row">
-            <div class="col-lg-12">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
-                    <!-- LOGO START -->
-                    <a class="navbar-logo" href="#"><img src="images/logo-dark.png" alt="Jirona"></a>
-                    <!-- LOGO END -->
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <!-- menu nav start -->
-                    <div class="container">
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav mr-auto">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#"> Home </a>
-                                </li>
-                                <li class="nav-item discover dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Discover
-                                    </a>
-                                    <div class="dropdown-menu discoverDD" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="#">Features</a>
-                                        <a class="dropdown-item" href="#">Our Team</a>
-                                        <a class="dropdown-item" href="#">Pricing Plans</a>
-                                        <a class="dropdown-item" href="#">Latests Blogs</a>
-                                    </div>
-                                </li>
-                                <li class="nav-item pages dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Pages
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="#">About Us</a>
-                                        <a class="dropdown-item" href="#">Features</a>
-                                        <a class="dropdown-item" href="#">FAQ's</a>
-                                        <a class="dropdown-item" href="#">Blog</a>
-                                    </div>
-                                </li>
-                            </ul>
-                            <!-- MENU NAV END -->
-                            <!-- SIGN IN/UP btn start -->
-                            <ul class="nav btn-sign">
-                                <li class="sign signIn"><a href="#">SIGN IN</a></li>
-                                <li class="sign signUp"><a href="#">SIGN UP</a></li>
-                            </ul>
-                            <!-- SIGN IN/UP btn end -->
-                        </div>
+    <header>
+        <nav class="nav-menu navbar navbar-expand-lg py-4">
+            <div class="container">
+                <!-- LOGO AREA START -->
+                <a class="navbar-logo" href="#"><img src="images/logo-dark.png" alt="Jirona"></a>
+                <!-- LOGO AREA END -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- MENU NAV START -->
+                <div class="container">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"> Home </a>
+                            </li>
+                            <li class="nav-item discover dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Discover
+                                </a>
+                                <div class="dropdown-menu discoverDD" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Features</a>
+                                    <a class="dropdown-item" href="#">Our Team</a>
+                                    <a class="dropdown-item" href="#">Pricing Plans</a>
+                                    <a class="dropdown-item" href="#">Latests Blogs</a>
+                                </div>
+                            </li>
+                            <li class="nav-item pages dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Pages
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">About Us</a>
+                                    <a class="dropdown-item" href="#">Features</a>
+                                    <a class="dropdown-item" href="#">FAQ's</a>
+                                    <a class="dropdown-item" href="#">Blog</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"> Contact </a>
+                            </li>
+                        </ul>
+                        <!-- MENU NAV END -->
+
+                        <!-- SIGN IN/UP btn start -->
+                        <ul class="nav btn-sign">
+                            <li class="sign signIn"><a href="#">SIGN IN</a></li>
+                            <li class="sign signUp"><a href="#">SIGN UP</a></li>
+                        </ul>
+                        <!-- SIGN IN/UP btn end -->
                     </div>
-                </nav>
+                </div>
+
             </div>
-        </div>
+        </nav>
     </header>
     <!--***** HEADER AREA END *****-->
 
-    <!--***** WELCONE AREA START ***** -->
-    <section class="page-area">
-        <div class="welcome-are">
-            <div class="container">
-                <div class="row py-3">
-                        <div class="col-lg-5 col-md-12 col-sm-12 align-self-center">
-                            <!-- TEKST AREA START -->
-                            <h1>Industry Leading Managed Services and Staffing <span>Solutions</span></h1>
-                            <p>Proven methods to capture business priorities and goals as well as current pain points that enables measurable business outcomes.</p>
-                            <!-- TEKST AREA END -->
-                           
-                            <!-- BTN LM START -->
-                            <div class="btn btn-LearnMore">
-                                <a href="#" class="btn-primary-line">LEARN MORE</a>
-                            </div>
-                            <!-- BTN LM END -->
-                        </div>
-                    <!-- IMG ARE START LM -->
-                    <div class="col-lg-6">
-                        <div class="img-group">
-
-                            <div class="img-group img-1">
-                                 <img src="images/1.jpg" alt="...">
-                            </div>
-
-                            <div class="img-group img-2">
-                                <img src="images/2.jpg" alt="...">
-                            </div>
-
-                            <div class="img-group img-3">
-                                <img src="images/3.jpg" alt="...">
-                            </div>
-
-                            <div class="img-group img-4">
-                                <img src="images/4.jpg" alt="...">
-                            </div>
-
+    <!--***** WELCONE AREA START *****-->
+    <section id="welcome">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
+                    <div class="caption">
+                        <h1>Industry Leading Managed <span class="d-block">Services and Staffing Solutions</span>
+                        </h1>
+                        <p>Proven methods to capture business priorities and
+                            <span class="d-block">goals as well as current pain points that
+                                enables </span>
+                            measurable business outcomes.
+                        </p>
+                        <a class="btn btn-outline-dark" id="learn" href="#">LEARN MORE</a>
+                    </div>
+                </div>
+                <div class="welcome-grid">
+                    <div class="item item1">
+                        <div class="image">
+                            <img src="images/1.jpg" class="img-fluid">
                         </div>
                     </div>
-                    <!-- IMG AREA END -->
+                    <div class="item item2">
+                        <div class="image">
+                            <img src="images/2.jpg" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="item item3">
+                        <div class="image">
+                            <img src="images/3.jpg" class="img-fluid">
+                        </div>
+                        <div class="item3-icon">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="item item4">
+                        <div class="image">
+                            <div class="content">
+                                <strong>Our goal:</strong>
+                                <p>“We create technology for a sustainable future.”</p>
+                            </div>
+                            <img src="images/4.jpg" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!--***** WELCOME AREA END *****-->
+
+    <!--***** ITEM AREA START *****-->
+    <section class="features-card mt-80px">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <a href="#" class="features-small-item">
+                        <div class="icon">
+                            <i class="fa fa-cloud"></i>
+                        </div>
+                        <h5 class="features-title">Cloud Solutions</h5>
+                        <p>Morbilling pharetra sapiening ut mattis viverra. Curabitur magna.</p>
+                    </a>
+                </div>
+                <div class="col-lg-3">
+                    <a href="#" class="features-small-item">
+                        <div class="icon">
+                            <i class="fa fa-laptop"></i>
+                        </div>
+                        <h5 class="features-title">Network Services</h5>
+                        <p>Donec pellentesque turpis utium lorem imperdiet semper viverra.</p>
+                    </a>
+                </div>
+                <div class="col-lg-3">
+                    <a href="#" class="features-small-item">
+                        <div class="icon">
+                            <i class="fa fa-video-camera"></i>
+                        </div>
+                        <h5 class="features-title">Webcast Services</h5>
+                        <p>Facilisis arcu ligula, malesuada id tincidunt laoreet, facilisis at justo.</p>
+                    </a>
+                </div>
+                <div class="col-lg-3">
+                    <a href="#" class="features-small-item">
+                        <div class="icon">
+                            <i class="fa fa-server"></i>
+                        </div>
+                        <h5 class="features-title">Disaster Recovery</h5>
+                        <p>Proin arcu ligula, malesuada id tincidunt laoreet, facilisis at justo.</p>
+                    </a>
                 </div>
             </div>
         </div>
     </section>
-    <!--***** WELCOME AREA END ***** -->
+    <!--***** ITEM AREA END *****-->
 
-    <script src="JS/script.js"></script>
+    <!--***** Features Big Item Start *****-->
+    <section class="features-big-card">
+        <div class="container">
+            <div class="row">
+                <div class="cloud-area col-lg-6 col-md-12 col-sm-12 align-self-center mobile-bottom-fix">
+                    <div class="left-heading">
+                        <h2 class="section-title">Cloud Services</h2>
+                    </div>
+                    <div class="left-text">
+                        <p>Phasellus vitae velit sit amet diam semper commodo quis quis libero. Morbi consequat arcu
+                            augue, molestie faucibus metus ullamcorper vel.</p>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <div class="cloud-area-button">
+                                    <a class="features-card-icon btn-home" href="#">
+                                        <i class="fa fa-angle-right"></i>
+                                        <span>NearCloud</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <div class="cloud-area-button">
+                                    <a class="features-card-icon btn-home" href="#">
+                                        <i class="fa fa-angle-right"></i>
+                                        <span>Office Cloud</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <div class="cloud-area-button">
+                                    <a class="features-card-icon btn-home" href="#">
+                                        <i class="fa fa-angle-right"></i>
+                                        <span>Backup Systems</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <div class="cloud-area-button">
+                                    <a class="features-card-icon btn-home" href="#">
+                                        <i class="fa fa-angle-right"></i>
+                                        <span>Hybrid Cloud</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <div class="cloud-area-button">
+                                    <a class="features-card-icon btn-home" href="#">
+                                        <i class="fa fa-angle-right"></i>
+                                        <span>API Cloud</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <div class="cloud-area-button">
+                                    <a class="features-card-icon btn-home" href="#">
+                                        <i class="fa fa-angle-right"></i>
+                                        <span>SDK Cloud</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <div class="cloud-area-button">
+                                    <a class="features-card-icon btn-home" href="#">
+                                        <i class="fa fa-angle-right"></i>
+                                        <span>Web Services</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <div class="cloud-area-button">
+                                    <a class="features-card-icon btn-home" href="#">
+                                        <i class="fa fa-angle-right"></i>
+                                        <span>Cloud Hosting</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="cloud-img-area col-lg-5 col-md-12 col-sm-12 align-self-center mobile-bottom-fix"
+                    data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                    <img src="./images/dark-1.png" class="img-fluid d-block mx-auto" alt="App">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--***** Features Big Item End *****-->
+
+    <!-- ***** Features Big Item Start 2***** -->
+    <section class="features-big-card-2 padding-bottom-80">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-12 col-sm-12 align-self-center mobile-bottom-fix-big">
+                    <img src="./images/dark-2.png" class="img-fluid d-block mx-auto" alt="App">
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-6 col-md-12 col-sm-12 align-self-center mobile-bottom-fix">
+                    <div class="left-heading">
+                        <h2 class="section-title">Design & Development</h2>
+                    </div>
+                    <div class="left-text">
+                        <p>Phasellus vitae velit sit amet diam semper commodo quis quis libero. Morbi consequat arcu augue, molestie faucibus metus ullamcorper vel.</p>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <a class="btn-home" href="#">
+                                    <i class="fa fa-angle-right"></i>
+                                    <span>Web Design</span>
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <a class="btn-home" href="#">
+                                    <i class="fa fa-angle-right"></i>
+                                    <span>Mobile App Design</span>
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <a class="btn-home" href="#">
+                                    <i class="fa fa-angle-right"></i>
+                                    <span>Android Development</span>
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <a class="btn-home" href="#">
+                                    <i class="fa fa-angle-right"></i>
+                                    <span>iOS Development</span>
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <a class="btn-home" href="#">
+                                    <i class="fa fa-angle-right"></i>
+                                    <span>Back-End</span>
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <a class="btn-home" href="#">
+                                    <i class="fa fa-angle-right"></i>
+                                    <span>Front-End</span>
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <a class="btn-home" href="#">
+                                    <i class="fa fa-angle-right"></i>
+                                    <span>e-Commerce</span>
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <a class="btn-home" href="#">
+                                    <i class="fa fa-angle-right"></i>
+                                    <span>Print Design</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Features Big Item End 2***** -->
+    
+    <!-- ***** Counter Parallax Start ***** -->
+    <section class="parallax-counter" id="counter">
+		<div class="parallax-content">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-6 col-sm-12">
+						<div class="count-item">
+							<strong>96</strong>
+							<span>Project<br>Complate</span>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-12">
+						<div class="count-item">
+							<strong>190</strong>
+							<span>Happy<br>Customer</span>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-12">
+						<div class="count-item">
+							<strong>12</strong>
+							<span>Experienced<br>Staff</span>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-12">
+						<div class="count-item">
+							<strong>46</strong>
+							<span>Ongoing<br>Project</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+    <!-- ***** Counter Parallax End ***** -->   
+
+    <!-- ***** Team Area End ***** -->
+    <section class="section-team padding-bottom-80">
+		<div class="container">
+			<!-- ***** Section Title Start ***** -->
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="center-heading">
+						<h2 class="section-title">Our Team</h2>
+					</div>
+				</div>
+				<div class="offset-lg-3 col-lg-6">
+					<div class="center-text">
+						<p>Donec vulputate urna sed rutrum venenatis. Cras consequat magna quis arcu elementum, quis congue risus volutpat.</p>
+					</div>
+				</div>
+			</div>
+			<!-- ***** Section Title End ***** -->
+
+			<div class="row">
+				<!-- ***** Team Item Start ***** -->
+				<div class="col-lg-3 col-md-6 col-sm-12">
+					<div class="team-item">
+						<div class="team-content">
+							<div class="team-info">
+								<h3 class="user-name">Fletch Skinner</h3>
+								<span>Product Strategist</span>
+							</div>
+							<ul class="social">
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="#"><i class="fa fa-github"></i></a></li>
+							</ul>
+							<p>Proin arcu ligula, malesuada id tincidunt laoreet, facilisis at justo. Sed at lorem.</p>
+						</div>
+						<div class="user-image">
+							<img src="./images/team1.jpg" alt="">
+						</div>
+					</div>
+				</div>
+				<!-- ***** Team Item End ***** -->
+				
+				<!-- ***** Team Item Start ***** -->
+				<div class="col-lg-3 col-md-6 col-sm-12">
+					<div class="team-item">
+						<div class="team-content">
+							<div class="team-info">
+								<h3 class="user-name">Lance Bogrol</h3>
+								<span>Visual Designer</span>
+							</div>
+							<ul class="social">
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="#"><i class="fa fa-github"></i></a></li>
+							</ul>
+							<p>Aliquam eget convallis nunc, et porta libero. Etiam velit, lobortis ut tristique.</p>
+						</div>
+						<div class="user-image">
+							<img src="./images/team2.jpg" alt="">
+						</div>
+					</div>
+				</div>
+				<!-- ***** Team Item End ***** -->
+				
+				<!-- ***** Team Item Start ***** -->
+				<div class="col-lg-3 col-md-6 col-sm-12">
+					<div class="team-item">
+						<div class="team-content">
+							<div class="team-info">
+								<h3 class="user-name">Valentino Morose</h3>
+								<span>Android Developer</span>
+							</div>
+							<ul class="social">
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="#"><i class="fa fa-github"></i></a></li>
+							</ul>
+							<p>Curabitur tristique nec orci quis porta. Aliquam leo justo, auctor eget sapien.</p>
+						</div>
+						<div class="user-image">
+							<img src="./images/team3.jpg" alt="">
+						</div>
+					</div>
+				</div>
+				<!-- ***** Team Item End ***** -->
+				
+				<!-- ***** Team Item Start ***** -->
+				<div class="col-lg-3 col-md-6 col-sm-12">
+					<div class="team-item">
+						<div class="team-content">
+							<div class="team-info">
+								<h3 class="user-name">Giles Posture</h3>
+								<span>iOS Developer</span>
+							</div>
+							<ul class="social">
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="#"><i class="fa fa-github"></i></a></li>
+							</ul>
+							<p>Nunc posuere lectus ut aliquet facilisis. Nam varius id magna et convallis.</p>
+                            <div class="user-image">
+                                <img src="./images/team4.jpg" alt="">
+                            </div>
+                        </div>
+					</div>
+				</div>
+				<!-- ***** Team Item End ***** -->
+			</div>
+		</div>
+	</section>
+	<!-- ***** Team Area End ***** -->
+   
+    <!-- ***** Features Big Item End ***** -->
     <script src="https://kit.fontawesome.com/2577c189d8.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -129,6 +493,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
         crossorigin="anonymous"></script>
+    <script src="JS/script.js"></script>
 </body>
 
 </html>
